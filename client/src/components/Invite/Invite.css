@@ -1,0 +1,57 @@
+  #invite {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    min-width: 50%; 
+    padding: 5px 5px;
+    background-color: #dbdbdb;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 5px 15px -9px rgba(0,0,0,0.42);
+    -moz-box-shadow: 0px 5px 15px -9px rgba(0,0,0,0.42);
+    box-shadow: 0px 5px 15px -9px rgba(0,0,0,0.42);
+}
+
+#invite-text {
+    background-color: #ffffff;
+    padding: 10px 10px;
+    min-height: 80px;
+
+}
+
+#invite-buttons {
+    padding: 5px 5px 0px 5px;
+}
+
+#subscribed {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+}
+
+@media screen and (min-width: 600px) {
+    #invite{
+      width: 100%;  
+    }
+}
+@media screen and (min-width: 700px) {
+    #invite{
+      width: 90%;  
+    }
+}
+@media screen and (min-width: 800px) {
+    #invite{
+      width: 80%;  
+    }
+}
+@media screen and (min-width: 900px) {
+    #invite{
+      width: 70%;  
+    }
+}
+@media screen and (min-width: 1000px) {
+    #invite{
+      width: 60%;  
+    }
+}

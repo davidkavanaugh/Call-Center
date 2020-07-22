@@ -1,0 +1,127 @@
+#dashboard {
+    padding-top: 40px;
+    margin: 0 auto;
+}
+
+#dashboard h3 {
+  margin-bottom: 20px;
+}
+
+#dashboard h4 {
+  margin-top: -5px;
+  font-size: 1.35em;
+}
+
+.meta {
+  padding-left: 1px;
+  font-size: 0.85em;
+}
+
+.created-by {
+  color: #3f51b5;
+}
+
+.call-center {
+  background-color: white;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 5px 15px -9px rgba(0,0,0,0.42);
+  -moz-box-shadow: 0px 5px 15px -9px rgba(0,0,0,0.42);
+  box-shadow: 0px 5px 15px -9px rgba(0,0,0,0.42);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 10px;
+  min-width: 235px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: border .3s;
+  transition: color .3s;
+  transition: box-shadow .3s;
+  transition: -webkit-box-shadow .3s;
+  transition: -moz-box-shadow .3s;
+}
+
+.call-center:hover {
+  -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+  -moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+  box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+}
+
+.call-center:active {
+  -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+  -moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+  box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+}
+
+.company-logo {
+  /* border: 1px dashed #d1d1d1;
+  border-radius: 10px; */
+  /* -webkit-box-shadow: inset 1px 0px 123px -113px rgba(0,0,0,0.4);
+  -moz-box-shadow: inset 1px 0px 123px -113px rgba(0,0,0,0.4);
+  box-shadow: inset 1px 0px 123px -113px rgba(0,0,0,0.4); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75px; 
+  width: 75px; 
+  padding: 10px 10px;
+}
+
+.company-logo img {
+  /* -webkit-box-shadow: 0px 5px 15px -9px rgba(0,0,0,0.42);
+  -moz-box-shadow: 0px 5px 15px -9px rgba(0,0,0,0.42);
+  box-shadow: 0px 5px 15px -9px rgba(0,0,0,0.42); */
+  max-height: 100%; 
+  max-width: 100%;
+  border-radius: 5px;
+  padding: 3px 3px;
+  background-color: white;
+}
+
+.to-create-call-center {
+  display: flex;
+  justify-content: center;
+  padding: 20px 20px;
+}
+
+/* media queries */
+
+@media screen and (min-width: 500px) {
+  #dashboard{
+    width: 80%;
+    padding-top: 30px;
+
+  }
+}
+
+@media screen and (min-width: 600px) {
+  #dashboard{
+    width: 70%;
+    padding-top: 40px;
+
+  }
+}
+
+@media screen and (min-width: 800px) {
+  #dashboard{
+    width: 60%;
+    padding-top: 50px;
+
+  }
+}
+
+@media screen and (min-width: 900px) {
+  #dashboard{
+    width: 50%;
+    padding-top: 60px;
+
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  #dashboard{
+    width: 40%;
+    padding-top: 70px;
+
+  }
+}

@@ -1,0 +1,44 @@
+.logo {
+  width: 40px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.alert-box {
+  color: #f50041;
+  width: 100%;
+  margin: 0px auto;
+  text-align: center;
+-webkit-animation: scale-in-ver-center 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: scale-in-ver-center 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.drawer-links {
+  width: 240px;
+}
+
+.navlink {
+  height: 50px;
+  cursor: pointer;
+}
+
+.navlink:hover {
+  background-color: #f0f0f0
+}
+
+@media print {
+  #nav{
+      display: none;
+  }
+  #note {
+    margin-top: -50px;
+  }
+  #note .new-call-button {
+    display: none;
+  }
+  #note .note-body h5, #note .note-body li {
+    color: black;
+  }
+}
